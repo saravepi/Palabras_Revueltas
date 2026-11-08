@@ -34,7 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Enums.h" />
+		<Unit filename="include/Enums.h" />
 		<Unit filename="include/Catalogo.h" />
 		<Unit filename="include/Celda.h" />
 		<Unit filename="include/Juego.h" />
