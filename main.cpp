@@ -14,9 +14,9 @@ int main() {
     cout << "Por favor, ingresa tu nombre: ";
     getline(cin, nombreUsuario);
 
-    // Inicialización de entidades
+    // InicializaciÃ³n de entidades
     Jugador jugadorActual(nombreUsuario);
-    Catalogo catalogoPalabras("Ortografía");
+    Catalogo catalogoPalabras("OrtografÃ­a");
     Tablero tableroJuego;
 
     // Instanciamos el juego uniendo las partes
@@ -25,7 +25,7 @@ int main() {
     partida.iniciarPartida();
     cout << "\nJuego iniciado. !Mucha suerte, " << jugadorActual.getNombre() << "!" << endl;
 
-    // Aquí irá el bucle principal (Game Loop)
+    // AquÃ­ irÃ¡ el bucle principal (Game Loop)
 
     return 0;
 }

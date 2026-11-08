@@ -12,6 +12,6 @@ void Juego::iniciarPartida() { estado = EstadoJuego::ACTIVO; }
 void Juego::mostrarPalabra() { tablero.mostrarPalabra(); }
 bool Juego::comprobarRespuesta(std::string respuesta) { return true; }
 void Juego::asignarPuntos() { jugador.acumularPuntos(10); }
-void Juego::repetirPalabra() { /* LÛgica para reingresar al cat·logo */ }
+void Juego::repetirPalabra() { /* L√≥gica para reingresar al cat√°logo */ }
 bool Juego::finPartida() { return estado == EstadoJuego::FINALIZADO; }
 void Juego::mostrarPuntaje() { /* Imprimir jugador.getPuntos() */ }
