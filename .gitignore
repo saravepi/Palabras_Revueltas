@@ -1,0 +1,9 @@
+# Archivos generados al compilar
+obj/
+bin/
+*.o
+*.exe
+*.depend
+
+# Archivos personales del IDE
+*.layout
