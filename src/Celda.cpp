@@ -51,3 +51,4 @@ void Celda::reiniciarCelda()
 {
     letraingresada = '\0';
 }
+
