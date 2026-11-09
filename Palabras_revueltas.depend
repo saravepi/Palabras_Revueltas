@@ -35,3 +35,7 @@
 1794108889 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\tablero.cpp
 	"Tablero.h"
 
+1794155180 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+
