@@ -1,18 +1,21 @@
 # depslib dependency file v1.0
-1794108889 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\catalogo.cpp
+1794205287 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\catalogo.cpp
 	"Catalogo.h"
 
-1794108889 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\catalogo.h
+1794203216 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\catalogo.h
+	<string>
+	<Palabra.h>
+	<vector>
 
 1794186298 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\celda.cpp
 	"Celda.h"
 
-1794184766 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\celda.h
+1794203770 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\celda.h
 
-1794108889 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\juego.cpp
+1794185084 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\juego.cpp
 	"Juego.h"
 
-1794108889 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\juego.h
+1794204183 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\juego.h
 	"Enums.h"
 	"Jugador.h"
 	"Tablero.h"
@@ -23,7 +26,10 @@
 1794155180 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\jugador.h
 	<string>
 
-1794108889 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\tablero.h
+1794193328 c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\include\tablero.h
+	<string>
+	<vector>
+	"Celda.h"
 
 1794108889 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\palabra.cpp
 	"Palabra.h"
@@ -38,4 +44,14 @@
 1794155180 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\src\jugador.cpp
 	"Jugador.h"
 	<iostream>
+
+1794203318 source:c:\users\iven_\onedrive - universidad del valle de méxico s.c\03 semetre uvm\proyecto_integrador_poo\palabras_revueltas\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Juego.h"
+	"Jugador.h"
+	"Tablero.h"
+	"Catalogo.h"
+	"Palabra.h"
 

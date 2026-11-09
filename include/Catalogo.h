@@ -1,6 +1,7 @@
 #ifndef CATALOGO_H
 #define CATALOGO_H
 #include <string>
+#include <Palabra.h>
 #include <vector>
 class Palabra;
 class Catalogo {

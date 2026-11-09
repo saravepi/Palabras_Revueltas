@@ -1,15 +1,19 @@
 #include "Catalogo.h"
+
 Catalogo::Catalogo(std::string tema, std::vector<Palabra> palabras) {
-temaAsignado = tema;
-coleccionPalabras = palabras;
-totalPalabras = palabras.size();
+    temaAsignado = tema;
+    coleccionPalabras = palabras;
+    totalPalabras = palabras.size();
 }
+
 std::string Catalogo::getTemaAsignado() {
-return temaAsignado;
+    return temaAsignado;
 }
+
 void Catalogo::setTemaAsignado(std::string tema) {
-temaAsignado = tema;
+    temaAsignado = tema;
 }
+
 int Catalogo::getTotalPalabras() {
 return totalPalabras;
 }
